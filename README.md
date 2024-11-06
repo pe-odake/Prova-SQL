@@ -29,7 +29,7 @@
 <div align="center"> 
 <h2>Procedures</h2>
 
-<img src="https://github.com/pe-odake/Prova-SQL/blob/main/img/Code-Procedures.png" width="512px"/>
+<img src="https://github.com/pe-odake/Prova-SQL/blob/main/img/Code-Procedure.png" width="512px"/>
 <img src="https://github.com/pe-odake/Prova-SQL/blob/main/img/Result-Procedures.png" width="512px"/>
 
 </div>
@@ -38,8 +38,8 @@
 <div> 
 <h2>Triggers</h2>
 
-<img src="https://github.com/pe-odake/Prova-SQL/blob/main/img/Code-Triggers.png" width="512px"/>
-<img src="https://github.com/pe-odake/Prova-SQL/blob/main/img/Result-Triggers.png" width="512px"/>
+<img src="https://github.com/pe-odake/Prova-SQL/blob/main/img/Code-Tiggers.png" width="512px"/>
+<img src="https://github.com/pe-odake/Prova-SQL/blob/main/img/Result-Trigger.png" width="512px"/>
 
 </div>
 
@@ -48,7 +48,7 @@
 <h2>Loops</h2>
 
 <img src="https://github.com/pe-odake/Prova-SQL/blob/main/img/Code-Loops.png" width="512px"/>
-<img src="https://github.com/pe-odake/Prova-SQL/blob/main/img/Result-Loops.png" width="512px"/>
+<img src="https://github.com/pe-odake/Prova-SQL/blob/main/img/Result-Loop.png" width="512px"/>
 
 </div>
 
