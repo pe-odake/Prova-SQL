@@ -3,8 +3,8 @@
 <div> 
 <h2>SubQuery</h2>
 
-<img scr="https://github.com/pe-odake/Prova-SQL/blob/main/img/Code-View.png" width= 512px>
-<img scr="https://github.com/pe-odake/Prova-SQL/blob/main/img/Code-View.png" width= 512px>
+<img scr="https://github.com/pe-odake/Prova-SQL/blob/main/img/Code-View.png" width= 512px/>
+<img scr="https://github.com/pe-odake/Prova-SQL/blob/main/img/Code-View.png" width= 512px/>
 
 </div>
 
