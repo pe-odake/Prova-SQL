@@ -2,10 +2,10 @@
 
 <div align="center"> 
 <h2>SubQuery</h2>
-
+<div display="flex">
 <img src="https://github.com/pe-odake/Prova-SQL/blob/main/img/Code-View.png" width="512px"/>
 <img src="https://github.com/pe-odake/Prova-SQL/blob/main/img/Code-View.png" width="512px"/>
-
+</div>
 </div>
 
 <div align="center"> 
