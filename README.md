@@ -1,6 +1,6 @@
 # <h1>Avaliação SQL Server</h1>
 
-<div> 
+<div align="center"> 
 <h2>SubQuery</h2>
 
 <img scr="https://github.com/pe-odake/Prova-SQL/blob/main/img/Code-View.png" width= 512px/>
