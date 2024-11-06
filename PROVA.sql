@@ -44,11 +44,12 @@ VALUES
 
 INSERT INTO Livros( idLivro, idleitor, nomeLivro, dataPublicação, idAutor, idEditora ,idEstante, idPrateleira, genero)
 VALUES
-	(1, NULL,'Dom Casmurro', '1888-05-12', 1, 10 ,101, 1, 'Historico'), -- o idLeitor null quer dizer que ele não esta com ninguem, e esta disponivel para ler
+	(1, NULL,'Dom Casmurro', '1888-05-12', 1, 10 ,101, 1, 'Drama'), -- o idLeitor null quer dizer que ele não esta com ninguem, e esta disponivel para ler
 	(2, 2,'O Alienista', '1885-08-22', 1, 10 ,101, 4,'Historico'),
 	(3, 4,'As Crônicas de Nárnia', '1954-05-06', 2, 20 ,201, 2,'Fantasia'),
 	(4, 3,'1984', '1964-05-10', 3, 10 ,102, 3,'Suspense'),
-	(5, 5,'Revolução dos Bichos', '1959-12-09', 3, 30 ,102, 3,'Suspense')
+	(5, 5,'Revolução dos Bichos', '1959-12-09', 3, 30 ,102, 3,'Suspense Fantasioso')
+
 
 INSERT INTO Autores (idAutor, nomeAutor, dataNasc)
 VALUES
@@ -63,7 +64,7 @@ VALUES
 	(10, 'Alfa' ),
 	(20, 'Beta'),
 	(30, 'Gama')
-		
+	
 
 --CRIANDO AS CHAVES ESTRANGEIRAS
 
@@ -170,6 +171,7 @@ GO
 
 
 --- LOOPS 
+--- LOOP QUE CONTA QUANTAS LINHAS TEM EM CADA TABELA	
 
 DECLARE @tabelaAtual INT = 1;
 DECLARE @totalTabelas INT = 4;
@@ -197,7 +199,7 @@ END
 
 WITH Genero_Autor
 AS(
-	SELECT
+	SELECT 
 		nomeAutor,
 		STRING_AGG(b.genero, ', ') AS 'Generos do Autor'
 
@@ -208,7 +210,9 @@ AS(
 )
 SELECT * FROM Genero_Autor
 
---WINDOW FUNCTION
+
+--- WINDOW FUNCTION
+--- CONTA O NUMERO DE LIVROS POR E
 
 SELECT 
 	nomeEditora,
