@@ -35,7 +35,7 @@
 </div>
 
 
-<div> 
+<div align="center"> 
 <h2>Triggers</h2>
 
 <img src="https://github.com/pe-odake/Prova-SQL/blob/main/img/Code-Tiggers.png" width="512px"/>
